@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "leetcode-solutions"
+version = "0.1.0"
+description = ""
+authors = ["asokolov <a.sokolov@it.ecommpay.com>"]
+readme = "README.md"
+packages = [{include = "leetcode_solutions", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
