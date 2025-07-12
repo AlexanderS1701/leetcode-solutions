@@ -2,12 +2,9 @@ from typing import List
 
 class Solution:
     '''
-    Дано: список целых чисел nums и целое число target.
-    Найди такие два индекса i и j, что:
-    nums[i] + nums[j] == target
-    Верни их в виде списка из двух элементов [i, j]. Ответ должен содержать индексы найденных чисел.
-    Можно считать, что будет ровно одно решение, и нельзя использовать один и тот же элемент дважды.
-    Порядок индексов может быть любым ([i, j] или [j, i] — оба верны).
+    Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+    You may assume that each input would have exactly one solution, and you may not use the same element twice.
+    You can return the answer in any order.
     '''
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         lookup = {}
