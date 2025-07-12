@@ -9,7 +9,7 @@ class Solution:
     Можно считать, что будет ровно одно решение, и нельзя использовать один и тот же элемент дважды.
     Порядок индексов может быть любым ([i, j] или [j, i] — оба верны).
     '''
-    def two_sum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
         lookup = {}
         for i, num in enumerate(nums):
             complement = target - num
