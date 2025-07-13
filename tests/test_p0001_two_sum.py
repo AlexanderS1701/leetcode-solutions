@@ -7,5 +7,5 @@ from leetcode_solutions.p0001_two_sum import Solution
     ([3, 3], 6, [0, 1]),
 ])
 def test_two_sum(nums, target, expected):
-    result = Solution().twoSum(nums, target)
+    result = Solution.twoSum(nums, target)
     assert result == expected or result == expected[::-1]
