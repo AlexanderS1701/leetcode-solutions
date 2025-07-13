@@ -7,6 +7,6 @@ from leetcode_solutions.p0001_two_sum import Solution
     ([3, 2, 4], 6, [1, 2]),
     ([3, 3], 6, [0, 1]),
 ])
-def test_two_sum(nums, target, expected):
+def test_twoSum(nums, target, expected):
     result = Solution.twoSum(nums, target)
     assert result == expected or result == expected[::-1]
